@@ -36,7 +36,7 @@ jobs:
         shell: cmd
         run: |
           curl https://github.com/dirkarnez/glfw-prebuilt/releases/download/v3.3.8/glfw-v3.3.8-mingw64-x86_64-posix-seh-rev0-8.1.0.zip -L -O -J &&^
-           7z.exe x glfw-v3.3.8-mingw64-x86_64-posix-seh-rev0-8.1.0.zip -o"glfw-v3.3.8-mingw64-x86_64-posix-seh-rev0-8.1.0"
+          7z.exe x glfw-v3.3.8-mingw64-x86_64-posix-seh-rev0-8.1.0.zip -o"glfw-v3.3.8-mingw64-x86_64-posix-seh-rev0-8.1.0"
            
       - name: set PATH, check mingw version, cmake generate, build and install
         shell: cmd
